@@ -3,7 +3,7 @@ f = setInterval(
         var rightSwipe = document.getElementsByClassName("recsGamepad__button--like")[0];
         var leftSwipe = document.getElementsByClassName("recsGamepad__button--dislike")[0];
         var profile = document.getElementsByClassName("profileCard__bio")[0];
-		var profileOverviewElement = document.getElementsByClassName("recCard__info");
+	var profileOverviewElement = document.getElementsByClassName("recCard__info");
         var len = 30; //least number of characters
 		
 		if(profileOverviewElement != null && profileOverviewElement[1] != null && profileOverviewElement[1].innerText.includes("Instagram Photos")){
